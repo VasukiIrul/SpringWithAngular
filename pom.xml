@@ -9,9 +9,13 @@
 		<version>2.7.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+	
 	<groupId>com.SpringDataJPA.demo</groupId>
 	<artifactId>SpringWithAngular</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	
+	
 	<name>SpringWithAngular</name>
 	<description>Demo project for Spring Boot with SpringMVC</description>
 	<properties>
