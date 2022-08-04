@@ -61,7 +61,7 @@ public class StudentTest {
 		when(studentService.getStudentById(anyInt())).thenReturn(student);
 
 		// create a mock http request to verify the expected result
-		mockMvc.perform(MockMvcRequestBuilders.get("/student/getStudentById/124")).andDo(print())
+		mockMvc.perform(MockMvcRequestBuilders.get("/student/getStudentById/123")).andDo(print())
 				.andExpect(MockMvcResultMatchers.jsonPath("$.id").value(123))
 				.andExpect(MockMvcResultMatchers.jsonPath("$.name").value("vasu"))
 				.andExpect(MockMvcResultMatchers.jsonPath("$.city").value("chennai")).andExpect(status().isOk());
