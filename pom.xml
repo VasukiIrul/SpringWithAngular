@@ -9,13 +9,13 @@
 		<version>2.7.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	
+
 	<groupId>com.SpringDataJPA.demo</groupId>
 	<artifactId>SpringWithAngular</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	
-	
+
+
 	<name>SpringWithAngular</name>
 	<description>Demo project for Spring Boot with SpringMVC</description>
 	<properties>
@@ -53,7 +53,11 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 			<version>2.7.0</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
